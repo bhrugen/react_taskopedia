@@ -11,8 +11,11 @@ In this course, we will learn react js by building TaskOPedia!
 
 Happy Coding!
 */
-function Header() {
+function MainHeader() {
   return <h1>REACT COURSE</h1>;
+}
+function SubHeader() {
+  return <p>This will be an exciting course.</p>;
 }
 function MainBody() {
   return (
