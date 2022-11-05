@@ -17,6 +17,16 @@ function MainHeader() {
 function SubHeader() {
   return <p>This will be an exciting course.</p>;
 }
+
+function Header() {
+  return (
+    <div>
+      <MainHeader></MainHeader>
+      <SubHeader></SubHeader>
+    </div>
+  );
+}
+
 function MainBody() {
   return (
     <div>
