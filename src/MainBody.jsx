@@ -1,3 +1,5 @@
+import Student from "./Student";
+
 function MainBody() {
   const whatWeWillLearn = "React JS";
   const lectureCount = 3;
@@ -16,6 +18,22 @@ function MainBody() {
         Enter Task :{" "}
         <input maxLength={5} readOnly={false} placeholder="Ben"></input>
       </div> */}
+      <div className="container row">Students Enrolled</div>
+      <Student
+        experience={2}
+        name="Kris Walley"
+        headshot="https://api.lorem.space/image/face?w=150&h=153"
+      />
+      <Student
+        experience={5}
+        name="Angel Patrice"
+        headshot="https://api.lorem.space/image/face?w=150&h=151"
+      />
+      <Student
+        experience={7}
+        name="Rene Parker"
+        headshot="https://api.lorem.space/image/face?w=150&h=150"
+      />
     </div>
   );
 }
