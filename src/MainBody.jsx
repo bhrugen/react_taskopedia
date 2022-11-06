@@ -1,5 +1,5 @@
 import Student from "./Student";
-
+import StudentReview from "./StudentReview";
 function MainBody() {
   const whatWeWillLearn = "React JS";
   const lectureCount = 3;
@@ -23,12 +23,16 @@ function MainBody() {
         experience={2}
         name="Kris Walley"
         headshot="https://api.lorem.space/image/face?w=150&h=153"
-      />
+      >
+        <StudentReview />
+      </Student>
       <Student
         experience={5}
         name="Angel Patrice"
         headshot="https://api.lorem.space/image/face?w=150&h=151"
-      />
+      >
+        <StudentReview />
+      </Student>
       <Student
         experience={7}
         name="Rene Parker"
