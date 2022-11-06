@@ -2,15 +2,6 @@ import ReactDOM from "react-dom/client";
 import "./CSS/style.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-/*
-REACT COURSE
-
-In this course, we will learn react js by building TaskOPedia! 
-    •	Call Ben
-    •	Go to walmart
-
-Happy Coding!
-*/
 function MainHeader() {
   return <h1 className="heading1">REACT COURSE</h1>;
 }
@@ -34,12 +25,16 @@ function Header() {
 }
 
 function MainBody() {
+  const whatWeWillLearn = "React JS";
+
   return (
     <div>
-      <p>In this course, we will learn react js by building TaskOPedia!</p>
+      <p>
+        In this course, we will learn {whatWeWillLearn} by building TaskOPedia!
+      </p>
       <ul>
-        <li>Call Ben</li>
-        <li>Go to walmart</li>
+        <li>Basic Foundation</li>
+        <li>Functional and Class Components</li>
       </ul>
     </div>
   );
